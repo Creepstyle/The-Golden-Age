@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Golden Age - Crypto</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background: radial-gradient(circle, rgba(255,223,186,1) 0%, rgba(139,69,19,0.8) 100%);
+            color: #fff;
+            text-align: center;
+            overflow-x: hidden;
+        }
+        .container {
+            padding: 50px;
+        }
+        h1 {
+            font-size: 3em;
+            text-shadow: 0 0 20px gold;
+        }
+        .quote {
+            font-style: italic;
+            font-size: 1.5em;
+            margin-top: 20px;
+            text-shadow: 0 0 15px rgba(255, 215, 0, 0.8);
+        }
+        .image-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 30px;
+            flex-wrap: wrap;
+        }
+        .image-container img {
+            width: 300px;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 0 30px rgba(255, 223, 186, 0.8);
+            transition: transform 0.3s ease-in-out;
+        }
+        .image-container img:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>The Golden Age</h1>
+        <p class="quote">"We are not just investing in crypto, we are investing in the future."</p>
+        <div class="image-container">
+            <img src="https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcSdsrvUs2jyc0BwI1KFoQIaSa9jjmBCSQGLjCdZUM2_skS-lUnNC7XIdyPA_BiAZyYzLjimxYeJyw-m9mo" alt="Golden Wealth">
+            <img src="https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcRM2U0M94kwmzWUoXvNXX7FQku4uyR5XE56VtIYC9svNXTXVBJix5AXhiWZLWGf_4cYX_yWJmBvXIGknEA" alt="Crypto Future">
+            <img src="https://files.oaiusercontent.com/file-Qj8HRpJbcChj5wZyo5Hrtn?se=2025-01-21T01%3A44%3A25Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3Dcea2cead-4de4-458a-b3a1-fcebdf0e9542.webp&sig=xx6e6PrVzmO6B3j5W0LesrvnAvoZ5cTuXiZ%2BWiiYaKE%3D" alt="Luxury Tech">
+        </div>
+    </div>
+</body>
+</html>
